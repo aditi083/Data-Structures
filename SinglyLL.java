@@ -1,4 +1,4 @@
-public class LL{
+public class SinglyLL{
     public Node head;
     public Node tail;
     int size;
@@ -144,7 +144,7 @@ public class LL{
     }
 
     public static void main(String[] args) {
-        LL list = new LL();
+        SinglyLL list = new SinglyLL();
         list.insertFirst(12);
         list.insertFirst(3);
         list.insertFirst(14);
